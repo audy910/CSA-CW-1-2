@@ -3,19 +3,14 @@ Copied from textbook as assigned
 
 1.1 - initials, printing out stuff
 
-public class Roses
-{
-    //--------------------------------------------------------------------------------
-    // Prints a poem (of sorts) on multiple lines.
-    //
-    public static void main (String[] args)
-    {
-        System.out.println ("Roses are red,\n\tViolets are blue ,\n" +
-        "Sugar is sweet,\n\tBut I have \"commitment issues\", \n\t" +
-        "So I'd rather just be friends\n\tAt this point in our" +
-        " relationship");
-    }
-}
+2.1 - prints two lines
+
+2.3 - assigns variables
+
+2.5 - changing variables
+
+2.7 - variables + strings(prints)
+
 
 
 
