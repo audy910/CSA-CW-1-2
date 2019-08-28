@@ -11,6 +11,8 @@ Copied from textbook as assigned
 
 2.7 - variables + strings(prints)
 
+2.7B - ScanKeyboardInt
+
 
 
 
