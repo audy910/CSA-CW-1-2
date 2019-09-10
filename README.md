@@ -13,6 +13,15 @@ Copied from textbook as assigned
 
 2.7B - ScanKeyboardInt
 
+2.8A - quadratic formula
+
+2.8B - random number
+
+2.9A - 
+
+2.9B -
+
+2.9C -
 
 
 
