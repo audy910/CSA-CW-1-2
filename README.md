@@ -17,11 +17,11 @@ Copied from textbook as assigned
 
 2.8B - random number
 
-2.9A - 
+2.9A - Price
 
-2.9B -
+2.9B - circle
 
-2.9C -
+2.9C - using printf
 
 
 
