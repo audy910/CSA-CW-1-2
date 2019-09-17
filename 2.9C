@@ -1,0 +1,36 @@
+
+import java.util.Calendar;
+import java.util.Locale;
+
+public class usePrintF
+{
+    public static void main(String[] args)
+    {
+     //Different formatting for an integer
+     int n = 46012;
+     
+     System.out.printf("%d%n", n);      // --> "661012"
+     System.out.printf("%08d%n", n);    // --> "00461012"
+     System.out.printf("%+8d%n", n);    // --> "+461012"
+     System.out.printf("%,d%n", n);     // --> "461,012"
+     System.out.printf("%+,8d%n%n", n); // --> "+461,012"
+     
+     //Different formatting for a double 
+     double pi = Math.PI;
+     
+     System.out.printf("%f%n", pi);     // --> "3.141593"
+     System.out.printf("%.3f%n", pi);   // --> "3.142"
+     System.out.printf("%10.3f%n", pi); // --> right justified
+     System.out.printf("%-10.3f%n", pi);// --> left justified
+     System.out.printf(Locale.FRANCE, 
+                        "%.3f%n%n", pi);// --> "3,142"
+    
+    //Different formatting for calendar objects
+    Calendar c = Calendar.getInstance();
+    System.out.printf("%tB %te, %tY%n", c, c, c);   //-> "date"
+    
+    System.out.printf("%tl:%tM %tp%n", c, c, c);    //-> "time"
+    
+    System.out.printf("%tD%n", c);                  //-> "date"
+    }// end of main method
+}//end class usePrintF
